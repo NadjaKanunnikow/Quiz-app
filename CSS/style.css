@@ -13,6 +13,7 @@
     position: fixed;
     top: 10px;
     justify-content: center;
+margin: 5rem;
 }
 
 .header__headline {

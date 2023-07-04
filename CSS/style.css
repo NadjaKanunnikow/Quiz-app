@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.header{
+    width:100%;
+    background-color: rgba(196, 192, 192, 0.877);
+    border: 2px solid;
+    border-radius: 20px;
+    text-align: center;
+    position: fixed;
+    top: 10px;
+    justify-content: center;
+margin: 5rem;
+}
+
+.header__headline {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:black
+}
+
+.card {
+    border: 2px solid;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    margin: 50px 50px 50px 50px;
+    
+}
+
+
+
+.navbar li {
+    float:left;
+    list-style-type:none;
+    margin: 5px;
+}
+ul {
+    list-style-type: none;
+  }
+.card_bookmark {
+    height: 50px;
+    position: absolute;
+    top: -10px;;
+    right: 2px;
+}
+
+.footer{
+    background-color: rgb(213, 200, 200);
+    width: 100%;
+    flex-direction: column;
+    position: fixed;
+    bottom: 10px;
+    
+}

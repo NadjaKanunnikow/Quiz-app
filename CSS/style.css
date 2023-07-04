@@ -36,7 +36,9 @@
     list-style-type:none;
     margin: 5px;
 }
-
+ul {
+    list-style-type: none;
+  }
 .card_bookmark {
     height: 50px;
     position: absolute;
